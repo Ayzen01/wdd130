@@ -79,6 +79,11 @@ aside {
     padding: 0;
 }
 
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
 section {
     max-width: 600px;
     color: #222;
