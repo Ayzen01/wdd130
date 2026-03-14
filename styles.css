@@ -54,12 +54,12 @@ main img {
     border: 1px solid black;
     padding: 5px;
     margin: 5px;
-    ,
     box-shadow: 5px 5px 10px #333;
 }
 
 aside {
     width: 200px;
+    margin: 20px;
     margin-top: 20px;
     border: 1px solid #ccc;
     padding: 10px;
