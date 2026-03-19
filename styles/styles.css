@@ -9,65 +9,49 @@ body {
     background-color: cadetblue;
     padding: 10px;
 
-    font-family: Arial, sans-serif;
+    font-family: Roboto, Arial, sans-serif;
 }
 
 nav {
-    background-color: #333;
-    color: white;
-    padding: 20px;
-    display: block;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-
+    background-color: steelblue;
+    padding: 10px;
 }
 
 nav a {
     color: white;
-    padding: 20px;
+    padding: 10px;
     display: block;
-    text-decoration: none;
-}
-
-/*main*/
-
-main {
-    width: 90%;
-    max-width: 800px;
-    margin: 20px 0 auto;
-    background-color: #fff;
-    padding: 20px;
-    color: #000;
 }
 
 h1 {
-    color: red;
-    margin-bottom: 20px;
+    color: steelblue;
+    padding: 5rem;
+}
 
+main {
+    max-width: 640;
 }
 
 /*image*/
 main img {
-    width: 200px;
+    width: 150px;
     height: auto;
-    border: 1px solid black;
-    padding: 5px;
-    margin: 5px;
-    box-shadow: 5px 5px 10px #333;
+    border: 1px solid steelblue;
+    padding: 2px;
+    margin: 0 0 1rem 1rem;
+    margin-bottom: 15px;
+    box-shadow: 0 0 30px gray;
+    float: right;
+}
+
+p {
+    margin: 1rem;
 }
 
 aside {
-    width: 200px;
-    margin: 20px;
-    margin-top: 20px;
-    border: 1px solid #ccc;
-    padding: 15px;
-    background-color: #eee;
-    color: #333;
+    width: 20em;
+    text-align: center;
+    position: relative;
 
 }
 
@@ -76,21 +60,10 @@ aside img {
     height: auto;
 }
 
-aside {
-    padding: 0;
-}
-
-section {
-    max-width: 600px;
-    color: #222;
-    margin: 20px auto;
-    padding: 10px;
-    background-color: #e0f7fa;
-
-}
-
-p {
-    padding: 0;
+aside h2 {
+    position: absolute;
+    top: 67px;
+    left: 150px;
 
 }
 
@@ -101,4 +74,18 @@ footer {
     color: white;
     padding-top: 10px;
     border-top: 1px solid #333;
+}
+
+/*Class selectors*/
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding: 1rem;
+    background-color: #eee;
+    color: #000;
+
+}
+
+.indent {
+    padding-left: 2rem;
 }
