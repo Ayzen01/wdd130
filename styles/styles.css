@@ -39,7 +39,7 @@ h1 {
 main {
     max-width: 840px;
     /* Adicione o 'px' aqui para funcionar */
-    margin: 0 auto;
+    margin: 0 20px;
     background-color: white;
     /* Para dar o efeito de papel sobre o fundo */
     padding: 20px;
@@ -49,19 +49,18 @@ main {
 main img {
     width: 80px;
     height: auto;
-    margin-top: 5px;
-    margin: 0 auto 20px;
-    /* centraliza e dá espaço abaixo */
     float: right;
-    /* Faz o texto subir e ficar ao lado da foto */
-    margin-left: 10px;
-    margin-bottom: 60px;
+    margin-top: 120px;
+    margin: 0 auto 20px;
+    margin-left: 15px;
+    margin-bottom: 10px;
     border: 1px solid #ccc;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 p {
     margin: 1rem 0;
+    text-align: left;
 }
 
 aside {
