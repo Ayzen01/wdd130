@@ -104,10 +104,6 @@ nav a.active {
 }
 
 /* About Sections */
-section:has(figure) {
-    text-align: center;
-    padding: 0 5%;
-}
 
 section:has(figure) {
     display: grid;
@@ -116,6 +112,8 @@ section:has(figure) {
     gap: 15px;
     /* Espaço entre cada imagem */
     align-items: start;
+    text-align: center;
+    padding: 0 5%;
 }
 
 section h2 {
