@@ -9,9 +9,9 @@
 :root {
     --primary-green: #064420;
     --secondary-yellow: #f4d35e;
-    --accent-blue: #00FFFF;
+    --accent-blue: #FFFFF0;
     --background-beige: #fdfcf7;
-    --text-dark: #333;
+    --text-dark: #333333;
     --white: #ffffff;
     --shadow-light: rgba(0, 0, 0, 0.1);
     --font-main: 'Segoe UI', Arial, sans-serif;
@@ -193,7 +193,7 @@ footer a {
 /* Footer */
 footer {
     background-color: var(--primary-green);
-    color: var(--white);
+    color: var(--accent-blue);
     text-align: center;
     padding: 20px 5%;
     margin-top: 60px;
