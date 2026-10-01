@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: serif;
+    background-color: #fff;
+    color: #333;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    width: 100%;
+    max-width: 550px;
+}
+
+/* Título */
+h1 {
+    color: #000080;
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+    font-family: Georgia, serif;
+}
+
+/* Caixa principal do formulário */
+form {
+    background-color: #eeeeee;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Cada item/pergunta */
+.quiz-item {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* Rótulos das perguntas */
+label {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #222;
+}
+
+/* Campos de entrada, seleção e área de texto */
+input[type="text"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #a6a6a6;
+    border-radius: 2px;
+    font-size: 0.95rem;
+    font-family: sans-serif;
+    background-color: #fff;
+}
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+/* Bloco de código */
+code {
+    display: block;
+    background-color: #333;
+    color: #fff;
+    padding: 12px;
+    font-family: monospace;
+    font-size: 0.9rem;
+    margin: 5px auto;
+    width: fit-content;
+    border-radius: 2px;
+}
+
+/* Botão de submissão */
+button[type="submit"] {
+    background-color: #000080;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+    transition: background-color 0.2s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #000055;
+}

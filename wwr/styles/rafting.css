@@ -33,11 +33,12 @@ header {
     align-items: center;
     padding: 20px 5%;
     color: var(--white);
-    grid-template-columns: auto 1fr;
+
 }
 
 header img {
     width: 90px;
+    height: auto;
 }
 
 nav a {
@@ -46,13 +47,14 @@ nav a {
     font-weight: 600;
     margin: 0 15px;
     font-size: 1rem;
+    padding-bottom: 4px;
     transition: color 0.3s, border-bottom 0.3s;
 }
 
 nav a:hover,
 nav a.active {
-    color: var(--accent-blue);
-    border-bottom: 2px solid var(--accent-blue);
+    color: var(--secondary-yellow);
+    border-bottom: 2px solid var(--secondary-yellow);
 }
 
 /* Hero Sectionn */
@@ -109,7 +111,7 @@ section:has(figure) {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     /* Divide o espaço igualmente entre as 5 imagens */
-    gap: 15px;
+    gap: 20px;
     /* Espaço entre cada imagem */
     align-items: start;
     text-align: center;
@@ -168,7 +170,6 @@ section figcaption {
 
 .socialmedia {
     display: flex;
-    justify-content: right;
     gap: 10px;
 
 }
@@ -194,7 +195,6 @@ footer a {
 footer {
     background-color: var(--primary-green);
     color: var(--accent-blue);
-    text-align: center;
     padding: 20px 5%;
     margin-top: 60px;
     display: flex;
@@ -206,7 +206,6 @@ footer {
 footer p {
     margin: 0 auto;
     font-size: 0.9rem;
-    text-align: left;
 
 }
 
@@ -223,7 +222,6 @@ footer p {
     }
 
     .hero h1,
-
     .hero article {
         position: static;
         transform: none;
