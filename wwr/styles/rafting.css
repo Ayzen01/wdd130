@@ -127,8 +127,13 @@ section h2 {
     grid-column: 1 / -1;
 }
 
+.section {
+    background-color: rgb(220, 220, 220);
+}
+
 section p {
     grid-column: 1 / -1;
+    color: rgb(5, 59, 5);
 }
 
 section figure {
@@ -152,6 +157,47 @@ section figcaption {
     font-size: 0.85rem;
     font-weight: 600;
     color: var(--text-dark);
+}
+
+.contact-section {
+    display: flex;
+    /* coloca os filhos lado a lado */
+    gap: 30px;
+    /* espaço entre mapa e formulário */
+    align-items: flex-start;
+    /* alinha pelo topo */
+    padding: 20px 5%;
+}
+
+.map-container {
+    flex: 1;
+    /* ocupa metade */
+}
+
+.map-frame {
+    width: 100%;
+    height: 300px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px var(--shadow-light);
+}
+
+.form-container {
+    flex: 1;
+    /* ocupa metade */
+    background-color: var(--white);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px var(--shadow-light);
+}
+
+.team-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+    text-align: center;
+    padding: 0 5%;
 }
 
 .about img,
