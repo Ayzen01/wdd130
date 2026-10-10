@@ -280,7 +280,7 @@ section p {
 
 .main-title {
     text-align: center;
-    color: --accent-blue;
+    color: var(--accent-blue);
     font-size: 2rem;
     margin-bottom: 30px;
 }
